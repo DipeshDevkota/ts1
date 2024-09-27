@@ -8,12 +8,11 @@
 
 
 // let arr:[boolean,number,string]=[false,12,"haha"];
-
+// let a:[boolean,number,string]=[false,12,'haha']
 // let variable:unknown;
 
 // variable =12;
 // variable ='hey';
-
 
 // function abcd():string{
 //     return 'LOL';
@@ -42,10 +41,6 @@
 
 // Direction.bottom
 
-
-
-
-
 enum MousePosition{
     x=0,
   y=0,
@@ -59,5 +54,20 @@ enum Human{
     age=25
 }
 
-
 console.log(Human.name)
+
+
+
+//tuples
+let arr:[number,string]=[12,'ok']
+
+
+
+function abcd():string{
+  return '12';
+}
+
+
+///Type Inference
+// UNderstanding Type Inference
+// Type Annotations
